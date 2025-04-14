@@ -4,7 +4,9 @@
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "IMAGE_API_URL": "http://localhost:800/image",
+        "ACCESS_API_URL": "http://localhost:801/stats"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "http://localhost:5009"
@@ -13,7 +15,9 @@
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "IMAGE_API_URL": "http://localhost:800/image",
+        "ACCESS_API_URL": "http://localhost:801/stats"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:7257;http://localhost:5009"
@@ -24,7 +28,9 @@
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
       "environmentVariables": {
         "ASPNETCORE_HTTPS_PORTS": "8081",
-        "ASPNETCORE_HTTP_PORTS": "8080"
+        "ASPNETCORE_HTTP_PORTS": "8080",
+        "IMAGE_API_URL": "http://localhost:800/image",
+        "ACCESS_API_URL": "http://localhost:801/stats"
       },
       "publishAllPorts": true,
       "useSSL": true
